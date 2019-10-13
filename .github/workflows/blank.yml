@@ -19,4 +19,4 @@ jobs:
     - name: Execute program
       run: |
         cd ../MinecraftVersionDownloader/MinecraftVersionDownloader.App
-        dotnet run -c Release -v d ../../MinecraftVanillaDatapack assets data pack. version.json
+        dotnet run -c Release ../../MinecraftVanillaDatapack assets data pack. version.json
