@@ -12,6 +12,7 @@ jobs:
     - uses: actions/checkout@v1
       with:
         repository: FaustVX/MinecraftVersionDownloader
+        ref: master
     - name: Run a one-line script
       run: echo Hello, world!
     - name: Run a multi-line script
