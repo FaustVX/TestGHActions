@@ -16,9 +16,7 @@ jobs:
     - uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '3.0.100'
-    - name: Run a one-line script
-      run: ls -la
-    - name: Run a multi-line script
+    - name: Execute program
       run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+        cd ../MinecraftVersionDownloader/MinecraftVersionDownloader.App
+        dotnet run ../../MinecraftVanillaDatapack assets data pack. version.json
